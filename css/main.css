@@ -253,3 +253,8 @@ footer .footer-style {
   background-color: #3F51B5;
   font-weight: 700;
 }
+.foto-perfil {
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+}
