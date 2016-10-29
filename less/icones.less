@@ -1,0 +1,53 @@
+hr.icone-light,
+hr.icone-padrao {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.icone-light:after,
+hr.icone-padrao:after {
+    content: "\f118";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+
+hr.icone-padrao {
+    border-color: @tema-padrao;
+}
+
+hr.icone-padrao:after {
+    background-color: white;
+    color: @tema-padrao;
+}
+
+hr.icone-contato:after{
+	content: "\f1d8" !important;
+}
+
+hr.icone-academico:after{
+	content: "\f19d" !important;
+}
+
+hr.icone-complementar:after{
+	content: "\f0eb" !important;
+}
+
+hr.icone-pessoal:after{
+	content: "\f21d" !important;
+}
+
+hr.icone-profissional:after{
+  content: "\f013 " !important;
+}
+
+hr.icone-eventos:after{
+	content: "\f135  " !important;
+}
