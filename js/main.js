@@ -29,7 +29,7 @@
         event.preventDefault();
         $('#success').append('<i class="fa fa-spinner fa-pulse fa-3x fa-fw">')
         $.ajax({
-            url: 'http://contato-twsatc.rhcloud.com/contato-api/email',
+            url: 'https://contato-twsatc.rhcloud.com/contato-api/email',
             type: 'post',
             dataType: 'json',
             data: $('#form-contato').serialize(),
